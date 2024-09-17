@@ -45,7 +45,7 @@ const initApp = () => {
       <a href="../html/detail.html?id=${product.id}">
         <img src="${product.imgIndex}">
       </a>
-      <h2>${product.name}</h2>
+      <h2>${product.name}aaaaaaaaaaa</h2>
       <div class="price">$${product.price}</div>
       <button 
         class="addCart" 
