@@ -57,7 +57,6 @@ const cart = () => {
         console.log(info);
 
         $listCartHTML.appendChild(newItem);
-        // <img src="${info.image}">
         newItem.innerHTML = `
           <div class="image">
             <img src="./images/${info.id}.png">

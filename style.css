@@ -36,10 +36,6 @@ header {
   background-color: #fff8;
   backdrop-filter: blur(10px) saturate(180%);
   z-index: 100;
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 1rem; */
 
   .header-container {
     width: 100%;
@@ -266,6 +262,7 @@ header {
   backdrop-filter: blur(10px) saturate(180%);
   transition: 0.5s;
   z-index: 100;
+  box-shadow: 0 0 10px #000;
 
   & h1 {
     padding: 20px;
@@ -338,14 +335,4 @@ body.activeTabCart {
       }
     }
   }
-}
-
-.red {
-  background-color: red;
-}
-.lime {
-  background-color: lime;
-}
-.cyan {
-  background-color: cyan;
 }
