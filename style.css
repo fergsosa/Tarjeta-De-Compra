@@ -259,10 +259,10 @@ header {
   grid-template-rows: 70px 1fr 70px;
   background-color: #000c;
   color: #eee;
+  box-shadow: 0 0 10px #000;
   backdrop-filter: blur(10px) saturate(180%);
   transition: 0.5s;
   z-index: 100;
-  box-shadow: 0 0 10px #000;
 
   & h1 {
     padding: 20px;
