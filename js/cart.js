@@ -1,4 +1,4 @@
-import products from "./products.js";
+import products from "../data/products.js";
 
 const cart = () => {
   const d = document,
@@ -43,6 +43,8 @@ const cart = () => {
     let totalQuantity = 0;
     if (cart.length > 0) {
       cart.forEach((item) => {
+        console.log(item);
+
         totalQuantity = totalQuantity + item.quantity;
         let newItem = d.createElement("div");
         newItem.classList.add("item");
