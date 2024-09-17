@@ -57,10 +57,10 @@ const cart = () => {
         console.log(info);
 
         $listCartHTML.appendChild(newItem);
+        // <img src="${info.image}">
         newItem.innerHTML = `
-        <div class="image">
-            // <img src="${info.image}">
-            <img src="./images/${info.id}">
+          <div class="image">
+            <img src="../images/${info.id}.png">
           </div>
           <div class="name">${info.name}</div>
           <div class="totalPrice">$${info.price * item.quantity}</div>
