@@ -45,12 +45,12 @@ const initApp = () => {
       <a href="../html/detail.html?id=${product.id}">
         // <img src="${product.imgDetail}">
       </a>
-      <h2>${product.imgDetail}</h2>
+      <h2>${product.name}</h2>
       <div class="price">$${product.price}</div>
       <button 
         class="addCart" 
         data-id='${product.id}'>
-            Agregar al carro ${product.imgDetail}
+            Agregar al carro
       </button>`;
     listProductHTML.appendChild(newProduct);
   });
