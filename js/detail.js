@@ -36,6 +36,7 @@ const initApp = () => {
   detail.querySelector(".addCart").dataset.id = thisProduct.id;
 
   let listProductHTML = document.querySelector(".listProduct");
+
   products.forEach((product) => {
     console.log(product.imgDetail);
 
