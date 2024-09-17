@@ -28,7 +28,7 @@ const initApp = () => {
   }
 
   let detail = document.querySelector(".detail");
-  detail.querySelector(".image img").src = thisProduct.imgIndex;
+  detail.querySelector(".image img").src = thisProduct.img;
   detail.querySelector(".name").innerText = thisProduct.name;
   detail.querySelector(".price").innerText = "$" + thisProduct.price;
   detail.querySelector(".description").innerText =
