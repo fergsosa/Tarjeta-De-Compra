@@ -1,4 +1,3 @@
-// import products from "../data/products.js";
 import products from "../data/products.js";
 import cart from "./cart.js";
 
@@ -38,7 +37,7 @@ const initApp = () => {
 
   let listProductHTML = document.querySelector(".listProduct");
   products.forEach((product) => {
-    console.log(product);
+    console.log(product.imgDetail);
 
     let newProduct = document.createElement("div");
     newProduct.classList.add("item");
