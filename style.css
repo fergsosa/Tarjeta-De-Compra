@@ -339,3 +339,13 @@ body.activeTabCart {
     }
   }
 }
+
+.red {
+  background-color: red;
+}
+.lime {
+  background-color: lime;
+}
+.cyan {
+  background-color: cyan;
+}
