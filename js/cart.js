@@ -60,7 +60,11 @@ const cart = () => {
         // <img src="${info.image}">
         newItem.innerHTML = `
           <div class="image">
+<<<<<<< HEAD
             <img src="../images/${info.id}.png">
+=======
+            <img src="./images/${info.id}">
+>>>>>>> c9f3e892c1a79b34e1a5c43d8f1a114c7bae0ed6
           </div>
           <div class="name">${info.name}</div>
           <div class="totalPrice">$${info.price * item.quantity}</div>
