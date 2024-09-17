@@ -27,9 +27,10 @@ const initApp = () => {
   products.forEach((product) => {
     let $newProduct = document.createElement("div");
     $newProduct.classList.add("item");
+
     $newProduct.innerHTML = `
       <a href="./html/detail.html?id=${product.id}">
-        <img src="${product.imgIndex}">
+        <img src="${product.imgDetail}">
       </a>
       <h2>${product.name}</h2>
       <div class="price">$${product.price}</div>
