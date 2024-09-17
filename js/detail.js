@@ -43,7 +43,6 @@ const initApp = () => {
     newProduct.classList.add("item");
     newProduct.innerHTML = `
       <a href="../html/detail.html?id=${product.id}">
-        <img src="${product.imgIndex}">
         <img src="../images/1.png">
       </a>
       <h2>${product.name}</h2>
