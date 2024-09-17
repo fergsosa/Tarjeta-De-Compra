@@ -50,7 +50,7 @@ const initApp = () => {
       <button 
         class="addCart" 
         data-id='${product.id}'>
-            Agregar al carro
+            Agregar al carro ${product.imgDetail}
       </button>`;
     listProductHTML.appendChild(newProduct);
   });
